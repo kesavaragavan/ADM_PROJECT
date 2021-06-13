@@ -1,0 +1,49 @@
+if (PM10 > 100.505) and (PM10 <= 200.505) and (PM2.5 <= 200.455) and (NH3 <= 200.04) and (NOx <= 201.225) then class: Satisfactory (proba: 100.0%) | based on 16,469 samples
+if (PM10 <= 100.505) and (PM10 > 50.505) and (NOx <= 99.9) and (SO2 <= 101.28) and (PM2.5 <= 98.96) and (O3 <= 100.425) and (NH3 <= 102.195) then class: Poor (proba: 100.0%) | based on 5,822 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 <= 47.09) and (O3 <= 50.45) and (NOx <= 50.51) and (NH3 <= 50.42) and (SO2 <= 50.435) then class: Good (proba: 100.0%) | based on 3,166 samples
+if (PM10 > 100.505) and (PM10 > 200.505) and (PM10 <= 300.45) and (PM2.5 <= 310.735) then class: Moderate (proba: 100.0%) | based on 1,561 samples
+if (PM10 > 100.505) and (PM10 > 200.505) and (PM10 > 300.45) and (PM10 <= 400.3) and (PM2.5 <= 390.48) then class:  Severe (proba: 100.0%) | based on 631 samples
+if (PM10 > 100.505) and (PM10 <= 200.505) and (PM2.5 > 200.455) and (PM2.5 <= 300.925) then class: Moderate (proba: 100.0%) | based on 516 samples
+if (PM10 > 100.505) and (PM10 > 200.505) and (PM10 > 300.45) and (PM10 > 400.3) then class: Very Poor (proba: 100.0%) | based on 311 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 > 47.09) and (PM2.5 <= 101.37) and (NO <= 141.985) and (NH3 <= 105.12) and (SO2 <= 116.525) and (PM2.5 > 48.835) and (O3 <= 95.005) then class: Poor (proba: 100.0%) | based on 213 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 <= 47.09) and (O3 > 50.45) and (O3 <= 110.755) and (CO <= 6.755) then class: Poor (proba: 100.0%) | based on 181 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 <= 47.09) and (O3 <= 50.45) and (NOx > 50.51) and (NOx <= 97.405) and (SO2 <= 95.065) and (NO2 > 0.54) then class: Poor (proba: 100.0%) | based on 136 samples
+if (PM10 > 100.505) and (PM10 <= 200.505) and (PM2.5 > 200.455) and (PM2.5 > 300.925) and (PM2.5 <= 399.95) then class:  Severe (proba: 100.0%) | based on 120 samples
+if (PM10 > 100.505) and (PM10 <= 200.505) and (PM2.5 > 200.455) and (PM2.5 > 300.925) and (PM2.5 > 399.95) then class: Very Poor (proba: 100.0%) | based on 76 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 <= 47.09) and (O3 <= 50.45) and (NOx <= 50.51) and (NH3 > 50.42) and (NH3 <= 100.03) then class: Poor (proba: 100.0%) | based on 66 samples
+if (PM10 > 100.505) and (PM10 <= 200.505) and (PM2.5 <= 200.455) and (NH3 > 200.04) and (NH3 <= 299.41) then class: Moderate (proba: 100.0%) | based on 46 samples
+if (PM10 <= 100.505) and (PM10 > 50.505) and (NOx > 99.9) then class: Satisfactory (proba: 100.0%) | based on 40 samples
+if (PM10 > 100.505) and (PM10 <= 200.505) and (PM2.5 <= 200.455) and (NH3 <= 200.04) and (NOx > 201.225) and (NOx <= 295.935) then class: Moderate (proba: 100.0%) | based on 23 samples
+if (PM10 <= 100.505) and (PM10 > 50.505) and (NOx <= 99.9) and (SO2 > 101.28) then class: Satisfactory (proba: 100.0%) | based on 22 samples
+if (PM10 <= 100.505) and (PM10 > 50.505) and (NOx <= 99.9) and (SO2 <= 101.28) and (PM2.5 > 98.96) and (PM2.5 <= 224.94) then class: Satisfactory (proba: 100.0%) | based on 21 samples
+if (PM10 <= 100.505) and (PM10 > 50.505) and (NOx <= 99.9) and (SO2 <= 101.28) and (PM2.5 <= 98.96) and (O3 > 100.425) then class: Satisfactory (proba: 100.0%) | based on 19 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 <= 47.09) and (O3 <= 50.45) and (NOx <= 50.51) and (NH3 <= 50.42) and (SO2 > 50.435) and (SO2 <= 87.83) then class: Poor (proba: 100.0%) | based on 13 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 <= 47.09) and (O3 <= 50.45) and (NOx > 50.51) and (NOx > 97.405) and (NO <= 234.05) then class: Satisfactory (proba: 100.0%) | based on 12 samples
+if (PM10 <= 100.505) and (PM10 > 50.505) and (NOx <= 99.9) and (SO2 <= 101.28) and (PM2.5 <= 98.96) and (O3 <= 100.425) and (NH3 > 102.195) and (NH3 <= 201.335) then class: Satisfactory (proba: 100.0%) | based on 8 samples
+if (PM10 > 100.505) and (PM10 <= 200.505) and (PM2.5 <= 200.455) and (NH3 > 200.04) and (NH3 > 299.41) then class:  Severe (proba: 100.0%) | based on 8 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 <= 47.09) and (O3 <= 50.45) and (NOx <= 50.51) and (NH3 > 50.42) and (NH3 > 100.03) then class: Satisfactory (proba: 100.0%) | based on 7 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 > 47.09) and (PM2.5 > 101.37) and (PM2.5 <= 188.845) then class: Satisfactory (proba: 100.0%) | based on 6 samples
+if (PM10 > 100.505) and (PM10 <= 200.505) and (PM2.5 <= 200.455) and (NH3 <= 200.04) and (NOx > 201.225) and (NOx > 295.935) and (NOx <= 425.235) then class:  Severe (proba: 100.0%) | based on 4 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 > 47.09) and (PM2.5 <= 101.37) and (NO > 141.985) then class: Satisfactory (proba: 100.0%) | based on 4 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 > 47.09) and (PM2.5 <= 101.37) and (NO <= 141.985) and (NH3 <= 105.12) and (SO2 <= 116.525) and (PM2.5 <= 48.835) and (NH3 <= 23.552) and (O3 <= 50.12) then class: Good (proba: 100.0%) | based on 3 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 > 47.09) and (PM2.5 <= 101.37) and (NO <= 141.985) and (NH3 <= 105.12) and (SO2 <= 116.525) and (PM2.5 <= 48.835) and (NH3 > 23.552) then class: Poor (proba: 100.0%) | based on 3 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 > 47.09) and (PM2.5 <= 101.37) and (NO <= 141.985) and (NH3 <= 105.12) and (SO2 > 116.525) then class: Satisfactory (proba: 100.0%) | based on 2 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 <= 47.09) and (O3 > 50.45) and (O3 > 110.755) then class: Satisfactory (proba: 100.0%) | based on 2 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 > 47.09) and (PM2.5 <= 101.37) and (NO <= 141.985) and (NH3 > 105.12) then class: Satisfactory (proba: 100.0%) | based on 2 samples
+if (PM10 <= 100.505) and (PM10 > 50.505) and (NOx <= 99.9) and (SO2 <= 101.28) and (PM2.5 > 98.96) and (PM2.5 > 224.94) and (PM2.5 > 434.89) then class: Very Poor (proba: 100.0%) | based on 2 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 <= 47.09) and (O3 <= 50.45) and (NOx > 50.51) and (NOx <= 97.405) and (SO2 > 95.065) then class: Satisfactory (proba: 100.0%) | based on 1 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 <= 47.09) and (O3 <= 50.45) and (NOx > 50.51) and (NOx > 97.405) and (NO > 234.05) then class: Moderate (proba: 100.0%) | based on 1 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 <= 47.09) and (O3 <= 50.45) and (NOx > 50.51) and (NOx <= 97.405) and (SO2 <= 95.065) and (NO2 <= 0.54) then class: Satisfactory (proba: 100.0%) | based on 1 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 <= 47.09) and (O3 <= 50.45) and (NOx <= 50.51) and (NH3 <= 50.42) and (SO2 > 50.435) and (SO2 > 87.83) then class: Satisfactory (proba: 100.0%) | based on 1 samples
+if (PM10 > 100.505) and (PM10 > 200.505) and (PM10 <= 300.45) and (PM2.5 > 310.735) and (PM10 > 223.185) then class:  Severe (proba: 100.0%) | based on 1 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 <= 47.09) and (O3 > 50.45) and (O3 <= 110.755) and (CO > 6.755) then class: Moderate (proba: 100.0%) | based on 1 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 > 47.09) and (PM2.5 <= 101.37) and (NO <= 141.985) and (NH3 <= 105.12) and (SO2 <= 116.525) and (PM2.5 <= 48.835) and (NH3 <= 23.552) and (O3 > 50.12) then class: Poor (proba: 100.0%) | based on 1 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 > 47.09) and (PM2.5 <= 101.37) and (NO <= 141.985) and (NH3 <= 105.12) and (SO2 <= 116.525) and (PM2.5 > 48.835) and (O3 > 95.005) then class: Satisfactory (proba: 100.0%) | based on 1 samples
+if (PM10 > 100.505) and (PM10 > 200.505) and (PM10 <= 300.45) and (PM2.5 > 310.735) and (PM10 <= 223.185) then class: Very Poor (proba: 100.0%) | based on 1 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 > 47.09) and (PM2.5 > 101.37) and (PM2.5 > 188.845) and (SO2 > 6.16) then class:  Severe (proba: 100.0%) | based on 1 samples
+if (PM10 > 100.505) and (PM10 > 200.505) and (PM10 > 300.45) and (PM10 <= 400.3) and (PM2.5 > 390.48) then class: Very Poor (proba: 100.0%) | based on 1 samples
+if (PM10 <= 100.505) and (PM10 > 50.505) and (NOx <= 99.9) and (SO2 <= 101.28) and (PM2.5 <= 98.96) and (O3 <= 100.425) and (NH3 > 102.195) and (NH3 > 201.335) then class: Moderate (proba: 100.0%) | based on 1 samples
+if (PM10 <= 100.505) and (PM10 > 50.505) and (NOx <= 99.9) and (SO2 <= 101.28) and (PM2.5 > 98.96) and (PM2.5 > 224.94) and (PM2.5 <= 434.89) and (O3 <= 35.13) then class: Moderate (proba: 100.0%) | based on 1 samples
+if (PM10 <= 100.505) and (PM10 > 50.505) and (NOx <= 99.9) and (SO2 <= 101.28) and (PM2.5 > 98.96) and (PM2.5 > 224.94) and (PM2.5 <= 434.89) and (O3 > 35.13) then class:  Severe (proba: 100.0%) | based on 1 samples
+if (PM10 > 100.505) and (PM10 <= 200.505) and (PM2.5 <= 200.455) and (NH3 <= 200.04) and (NOx > 201.225) and (NOx > 295.935) and (NOx > 425.235) then class: Very Poor (proba: 100.0%) | based on 1 samples
+if (PM10 <= 100.505) and (PM10 <= 50.505) and (PM2.5 > 47.09) and (PM2.5 > 101.37) and (PM2.5 > 188.845) and (SO2 <= 6.16) then class: Moderate (proba: 100.0%) | based on 1 samples
